@@ -1,0 +1,469 @@
+body{
+    background-color: #B8D0E5;
+}
+
+.top{
+    position: relative;
+    align-items:flex-end;
+    display: flex;
+    height: 75px;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+    background-color: #fff;
+}
+
+.logo_undip{
+    margin-left:-5px;
+    margin-right:auto;
+    position: relative;
+    top: 20px;
+}
+.logo_undip img{
+    height: 110px;
+    width: auto;
+}
+
+.logo_profile img{
+    width: auto;
+    height: 46px;
+    position: relative;
+    top: -10px;
+    left: -10px;
+    margin-left: auto;
+    border-radius: 50%;
+}
+
+.text{
+    position: absolute;
+    width: auto;
+    height: auto;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 75px;
+}
+
+
+.bar{
+    margin-top: 0px;
+    margin-left: -8px;
+    margin-right: -8px;
+    width: auto;
+    right:0px;
+    left:0px;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color:#EDFFFF ;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    background-color: lightgray;
+}
+
+/*Dashboard mhs*/
+.card{
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: absolute;
+}
+
+.botom-line{
+    box-sizing: border-box;
+    display: flex;
+    height: 50px;
+    position: relative;
+    align-items:flex-end;
+    margin-top: 0px;
+    margin-left: -8px;
+    margin-right: -8px;
+    top: 939px;
+    background: #FAFAFA;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    ;
+}
+
+.card{
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: absolute;
+}
+
+.text-dashboard{
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 30px;
+    top: 170px;
+    left: 140px;
+    position: absolute;
+}
+
+.card-status{
+    width: 450px;
+    height: 200px;
+    left: 145px;
+    top: 220px;
+}
+
+.card-status img{
+    width:120px;
+    height:120px;
+    position: absolute;
+    top: 25px;
+    left: 40px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.card-status-mhs{
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 30px;
+    bottom: 15px;
+    left: 70px;
+    position: absolute;
+}
+
+.card-status ul {
+    position: absolute;
+    left: 150px;
+    top: 15px;
+    list-style-type: none;
+}
+
+.card-status ul li {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.card-prestasi{
+    width: 390px;
+    height: 200px;
+    right: 150px;
+    top: 220px;
+}
+
+.card-prestasi-text{
+    display: inline;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    left: 15px;
+    top: 5px;
+}
+
+.card-prestasi-text svg {
+    width: 22px;
+    height: auto;
+}
+
+.card-prestasi-ipk {
+    position: absolute;
+    top: 95px;
+    left: 80px;
+    font-size: 30px;
+}
+
+.card-prestasi-sks {
+    position: absolute;
+    top: 95px;
+    right: 80px;
+    font-size: 30px;
+}
+
+.card-prestasi-line{
+    border-left: 1px solid black;
+    height: 125px;
+    position: absolute;
+    left: 50%;
+    margin-left: 0px;
+    top: 50px;
+}
+
+.card-akademik{
+    width: 1220px;
+    height: 350px;
+    left: 0px;
+    right: 0;
+    top: 500px;
+    margin: 0 auto;
+}
+
+.card-akademik-text{
+    display: inline;
+    font-size: 22px;
+    font-weight: bold;
+    position: absolute;
+    left: 40px;
+    top: 15px;
+}
+
+.card-akademik-text svg {
+    width: 22px;
+    height: auto;
+}
+
+.card-akademik-dosen {
+    position: absolute;
+    top: 80px;
+    left: 45px;
+    font-size: 20px;
+    list-style-type: none;
+}
+
+.card-akademik-dosen a {
+    font-weight: bold;
+}
+
+.card-akademik-dosen li {
+    margin-top: 20px;
+}
+
+.card-akademik-line{
+    border-left: 1px solid black;
+    height: 245px;
+    position: absolute;
+    left: 68%;
+    margin-left: 0px;
+    top: 70px;
+}
+
+.card-akademik-semester {
+    position: absolute;
+    right: 130px;
+    top: 60px;
+    text-align: center;
+}
+
+.card-akademik-semester ul {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card-akademik-semester li {
+    list-style-type: none;
+    font-size: 18px;
+}
+
+.card-edit{
+    width: 1220px;
+    left: 0px;
+    right: 0;
+    top: 180px;
+    margin: 0 auto;
+}
+
+/*html skripsi*/
+.card-skripsi{
+    width: 60%;
+    height: 40%;
+    left: 0px;
+    right: 0px;
+    top: 220px;
+    margin: 0 auto;
+}
+
+
+/*dashboard dosen*/
+
+.card-perwalian{
+    width: 450px;
+    height: 350px;
+    left: 145px;
+    top: 475px;
+    margin: 0 auto;
+}
+
+.card-perwalian-text {
+    position: absolute;
+    left: 160px;
+    margin-left: 0px;
+    font-size: 24px;
+    font-weight: bold;
+    top:15px;
+}
+
+.card-perwalian-aktif {
+    position: absolute;
+    top: 35%;
+    left: 75px;
+    text-align: center;
+}
+
+.card-perwalian-aktif a {
+    font-size: 22px;
+}
+
+.card-perwalian-aktif-jumlah {
+    font-size: 60px;
+    border: 3px solid;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: white;
+}
+
+.card-perwalian-lain {
+    position: absolute;
+    top: 35%;
+    right: 75px;
+    text-align: center;
+}
+
+.card-perwalian-lain a {
+    font-size: 22px;
+}
+
+.card-perwalian-lain-jumlah {
+    font-size: 60px;
+    border: 3px solid;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: white;
+}
+
+.card-ipkmhs{
+    width: 575px;
+    height: 610px;
+    right: 150px;
+    top: 220px;
+}
+
+.card.card-ipkmhs p {
+    position: absolute;
+    left: 36%;
+    font-size: 25px;
+    font-weight: bold;
+    top: 15px;
+}
+
+.ipkmhs-tipe {
+    background-color: white;
+    position: absolute;
+    width: 30%;
+    height: 35%;
+    border: solid;
+    border-radius: 10px;
+}
+
+.card-ipkmhs-tipe1 {
+    left: 12%;
+    top: 17%;
+}
+
+.card-ipkmhs-tipe2 {
+    top: 17%;
+    right: 12%;
+}
+
+.card-ipkmhs-tipe3 {
+    top: 57%;
+    left: 12%;
+}
+
+.card-ipkmhs-tipe4 {
+    top: 57%;
+    right: 12%;
+}
+
+.ipkmhs-tipe a {
+    font-size: 18px;
+    position: absolute;
+    left: 35px;
+    top: 12px;
+}
+
+.ipkmhs-tipe b {
+    font-size: 50px;
+    position: absolute;
+    top: 80px;
+    left: 25px;
+}
+
+.flex {
+    display: flex;
+    margin: 30px;
+    gap: 250px;
+}
+
+.flex-img {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.w-full {
+    width: 80%;
+}
+
+.mt-5 {
+    margin-top: 5px;
+}
+
+.flex-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 81%;
+
+}
+
+.w-5 {
+    width: 15px;
+}
+
+/* Logout */
+.logout{
+    position: absolute;
+    width: 241px;
+    height: 119.83px;
+    left: 1225px;
+    top: -20px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+
+    color: rgba(0, 0, 0, 0.89);
+
+    z-index: 1000;
+}
+
+.logout2{
+    position: absolute;
+    width: 241px;
+    height: 119.83px;
+    left: 1270px;
+    top: 35px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+
+    color: rgba(0, 0, 0, 0.89);
+    z-index: 1000;
+}
